@@ -1,38 +1,88 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Satori – Twój spokojny planer</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Satori – Twój osobisty przewodnik po neuroprofilu</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <meta name="description" content="Satori pomaga odkryć Twój neuroprofil: krótkie testy kognitywne, spersonalizowany raport, praktyczne rekomendacje.">
 </head>
 <body>
-  <div class="container">
-    <h1>Satori – Twój spokojny planer i przewodnik</h1>
-    <p>Tworzy etapy działań, wspiera samodzielność, pomaga radzić sobie z przebodźcowaniem, komunikacją i emocjami.</p>
-    <a href="#formularz" class="cta-button">Dołącz do testów</a>
-  </div>
+  <header class="hero">
+    <nav class="nav">
+      <div class="brand">Satori</div>
+      <div class="nav-links">
+        <a href="#features">Funkcje</a>
+        <a href="#screenshots">Screeny</a>
+        <a href="#cta" class="btn-nav">Pobierz</a>
+      </div>
+    </nav>
+    <div class="hero-content">
+      <h1>Twój osobisty przewodnik po neuroprofilu</h1>
+      <p>Poznaj swoje mocne strony, odkryj rekomendacje i rozwijaj się w zgodzie z własnym tempem.</p>
+      <div class="cta-row">
+        <a href="#cta" class="btn-primary">Pobierz aplikację</a>
+        <a href="#screenshots" class="btn-secondary">Zobacz, jak działa</a>
+      </div>
+      <div class="hero-devices">
+        <img src="images/screenshot1.png" alt="Ekran główny Satori">
+        <img src="images/screenshot2.png" alt="Test kognitywny">
+        <img src="images/screenshot3.png" alt="Raport i rekomendacje">
+      </div>
+    </div>
+  </header>
 
-  <div class="section" id="opis">
-    <h2>Dlaczego Satori?</h2>
-    <p>Aplikacja stworzona dla osób w spektrum autyzmu. Wspiera planowanie, dostosowane tempo działania i rozwój samodzielności.</p>
-    <ul class="features">
-      <li>✅ Harmonogram zadań z etapami</li>
-      <li>✅ „Łańcuchy” czynności i elastyczne plany</li>
-      <li>✅ Prosty, nieprzytłaczający design (bez systemów nagród)</li>
-      <li>✅ Lista placówek, miejsc pracy i przestrzeni przyjaznych</li>
-      <li>✅ Fiszki psychologiczne, scenariusze rozmów i sytuacji społecznych</li>
-    </ul>
-  </div>
+  <section id="features">
+    <h2 class="section-title">Funkcje Satori</h2>
+    <p class="section-lead">Subiektywne i obiektywne testy, jasny raport oraz praktyczne wskazówki – zaprojektowane z myślą o osobach neuroatypowych.</p>
+    <div class="features">
+      <div class="feature">
+        <img src="images/feature1.png" alt="Testy kognitywne">
+        <h3>Testy kognitywne</h3>
+        <p>Krótko i konkretnie: reaktywność, pamięć robocza, uwaga. Wyniki widzisz natychmiast.</p>
+      </div>
+      <div class="feature">
+        <img src="images/feature2.png" alt="Spersonalizowany raport">
+        <h3>Spersonalizowany raport</h3>
+        <p>Profil poznawczy, wykresy i wnioski. Zrozum, jak pracuje Twój umysł.</p>
+      </div>
+      <div class="feature">
+        <img src="images/feature3.png" alt="Rekomendacje">
+        <h3>Praktyczne rekomendacje</h3>
+        <p>Konkretne kroki i narzędzia do wprowadzenia od razu – w domu, w pracy, w szkole.</p>
+      </div>
+    </div>
+  </section>
 
-  <div class="section" id="formularz">
-    <h2>Zapisz się na wersję beta</h2>
-    <p>Wypełnij formularz, aby otrzymać dostęp do wersji testowej aplikacji.</p>
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc1Rxx6KI4QfQ-EA3prUbLHwsAw260la8xj7UzAgE_Gg_B57w/viewform?embedded=true" width="640" height="1717" frameborder="0" marginheight="0" marginwidth="0">Ładuję…</iframe>
-  </div>
+  <section id="screenshots">
+    <h2 class="section-title">Zrzuty ekranu</h2>
+    <div class="screenshots">
+      <img src="images/screenshot1.png" alt="Screenshot 1">
+      <img src="images/screenshot2.png" alt="Screenshot 2">
+      <img src="images/screenshot3.png" alt="Screenshot 3">
+    </div>
+  </section>
+
+  <section id="cta" class="cta">
+    <h2>Gotowy, by odkryć siebie?</h2>
+    <p>Pobierz Satori już teraz i zacznij swoją podróż w kierunku pełnego zrozumienia swojego potencjału.</p>
+    <div class="store-badges">
+      <a class="badge" href="#" aria-label="Pobierz z Google Play">Google Play</a>
+      <a class="badge" href="#" aria-label="Pobierz z App Store">App Store</a>
+      <a class="badge" href="#" aria-label="Użyj w przeglądarce">Aplikacja Web</a>
+    </div>
+  </section>
 
   <footer>
-    <p>&copy; 2025 Satori – Projekt wspierający samodzielność osób w spektrum autyzmu.</p>
+    <div class="footer-inner">
+      <div>© 2025 Satori</div>
+      <div class="footer-links">
+        <a href="#">Polityka prywatności</a>
+        <a href="#">Regulamin</a>
+        <a href="#features">Kontakt</a>
+      </div>
+    </div>
   </footer>
 </body>
 </html>
